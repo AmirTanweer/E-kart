@@ -1,0 +1,10 @@
+.cont{
+    background-color:  #5cbde466;
+}
+.card{
+    /* background-color: #2b9be2; */
+    background-color: #40adbd;
+}
+.card-title, .card-text, #price{
+    color: white;
+}

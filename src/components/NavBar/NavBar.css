@@ -1,0 +1,135 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+html, body
+{
+    margin: 0px;
+}
+li{
+    list-style: none;
+    margin: 14px 0px;
+}
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 2em 3em;
+	text-align: center;
+}
+div.container a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+div.cont a{
+    color: white;
+}
+.purple
+{
+    background: #8df;
+   
+}
+
+div.topBotomBordersIn a:before, div.topBotomBordersIn a:after
+{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    height: 2px;
+    background: #FFF;
+    content: "";
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+div.topBotomBordersIn a:before
+{
+    top: 0px;
+    transform: translateY(-10px);
+}
+
+div.topBotomBordersIn a:after
+{
+    bottom: 0px;
+    transform: translateY(10px);
+}
+
+div.topBotomBordersIn a:hover:before, div.topBotomBordersIn a:hover:after
+{
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.side-crop { max-height: 500px; overflow: hidden; }
+.side-crop img { max-height: initial; }
+
+
+
+    #aboutus{
+        background-color: #017fea;
+        margin: 8px;
+    }
+
+    
+#page_banner{
+    z-index: 2;
+    /* margin-top: 8em; */
+    width: 100%;
+    height: 33em;
+    margin-left: -0.5em;
+    margin-right: 0;
+}
+#banner, #banner_{
+    width: 100%;
+    padding: 25px;
+    height: 100%;
+    background-image: url(../images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#msg_box{
+    margin-top: 7.5em;
+   /* margin-left: 25%;*/
+    color: white;
+   
+}
+.summer_s{
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+#seventy_p{
+    font-size: 100px;
+    font-weight: bolder;
+  margin-top: -0.3em;
+    margin-left: 0;
+}
+.promo_c{
+    margin-top: -3em;
+    font-size: 20px;
+    font-weight: 500;
+}
+#shop_now{
+    border: none;
+   
+    width: 10em;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border-radius: 3px;
+    
+}
+#shop_now:active{
+    transform: scale(0.9);
+
+}
